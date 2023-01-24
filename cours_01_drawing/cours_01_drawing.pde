@@ -26,7 +26,6 @@ void dessinBob() {
   rect(width-mouseX, mouseY, random(100), random(100));
   rect(width-mouseX, height-mouseY, random(100), random(100));
   rect(mouseX, height-mouseY, random(100), random(100));
-
   strokeWeight(5);
   stroke(random(255));
   line(width/2, height/2, mouseX, mouseY);
